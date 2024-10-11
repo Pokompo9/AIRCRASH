@@ -28,7 +28,7 @@ st.sidebar.header("Filter Options")
 
 # Years filter
 years = df['Year'].unique()
-selected_years = st.sidebar.multiselect("Select Years", years, [years[0], years[2]], default=years)
+selected_years = st.sidebar.multiselect("Select Years", years, [years[0], years[2]])
 
 
 # Filter Dataframe based on selection
