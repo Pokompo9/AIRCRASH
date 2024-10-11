@@ -15,8 +15,6 @@ def load_data():
     df['Survivor Rate (%)'] = df['Fatalities (air)'] / df['Aboard'] * 100
 
     return df
-    return df.head(100)
-
 
 df = load_data()
 
